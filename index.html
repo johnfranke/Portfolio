@@ -16,32 +16,32 @@
 
 <body class="body">
     <div class="row col-md-12 header">
-        <p>john franke</p>
+        <p class="name">john franke</p>
     </div>
     <div class="row navbar justify-content-end p-0">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
+                <a class="nav-link" id="about" href="#">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">portfolio</a>
+                <a class="nav-link" id="portfolio" href="#">portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" id="contact" href="#">contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">resume</a>
+                <a class="nav-link" id="resume" href="./johnfrankeresume.pdf" target="_blank">resume</a>
             </li>
         </ul>
     </div>
-    <div class="row col-12 m-0 p-0">
+    <div class="row col-12 m-0 p-0" id="about-section">
         <div class="col-md-1">
         </div>
-        <div class="col-md-10 content">
+        <div class="col-md-10 content"><img id="profile-pic" src="profilepic.png">
             <p class="title">ABOUT</p>
             <p class="content-bold">I am a web developer</p>
             <br>
-            <h5 class="content-text">My name is John Franke. I'm currently attending the Kansas University coding bootcamp. I want to become a developer because it is something I've always been interested in. I self-taught myself html and css by playing around with it while I was in junior high, I got good enough to create websites for several people and small businesses. I now want to get into development as a career so now I am learning front end and back end to hopefully find a job in development.
+            <h5 class="content-text">My name is John Franke. I'm currently attending the University of Kansas coding bootcamp. I want to become a developer because it is something I've always been interested in. I self-taught myself html and css by playing around with it while I was in junior high, I got good enough to create websites for several people and small businesses. I now want to get into development as a career so now I am learning front end and back end to hopefully find a job in development.
 
                 In my free time I enjoy spending time with my family and friends. I like to travel. The last place I visited was Buffalo, NY. While I was there I checked off a bucketlist item I've always had by visiting Niagara Falls. Other places I enjoy traveling to and I frequent quite often because of friends and just for fun are Chicago and Nashville. In the near future I would like to visit New York City.
             </h5>
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="row col-12 m-0 p-0">
+    <div class="row col-12 m-0 p-0" id="portfolio-section">
         <div class="col-md-10 content">
             <p class="title text-right">PORTFOLIO</p>
             <p class="content-bold">A look at some of my work...</p>
@@ -62,12 +62,9 @@
                   <div class="card-body">
                     <h5 class="card-title">Beer Me</h5>
                     <p class="card-text">An app to find the top 10 breweries near you.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="">Deployed Version</small>
-                  </div>
-                  <div class="card-footer">
-                    <small class="">GitHub Repository</small>
+                    <a class="card-title" href="https://ajmyers5.github.io/Group-666/" target="_blank">Deployed Version</a>
+                    <br>
+                    <a href="https://github.com/ajmyers5/Group-666" target="_blank">GitHub Repository</a>
                   </div>
                 </div>
                 <div class="card">
@@ -75,12 +72,9 @@
                   <div class="card-body">
                     <h5 class="card-title">Workday Scheduler</h5>
                     <p class="card-text">Schedule your day with this workday scheduler.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="">Deployed Version</small>
-                  </div>
-                  <div class="card-footer">
-                    <small class="">GitHub Repository</small>
+                    <a class="card-title" href="https://johnfranke.github.io/Workday-Scheduler/" target="_blank">Deployed Version</a>
+                    <br>
+                    <a href="https://github.com/johnfranke/Workday-Scheduler" target="_blank">GitHub Repository</a>
                   </div>
                 </div>
                 <div class="card">
@@ -88,14 +82,11 @@
                   <div class="card-body">
                     <h5 class="card-title">Weather Dashboard</h5>
                     <p class="card-text">Type in a city and see current conditions and a 5 day forecast.</p>
+                    <a class="card-title" href="https://johnfranke.github.io/Weather-Dashboard/" target="_blank">Deployed Version</a>
+                    <br>
+                    <a href="https://github.com/johnfranke/Weather-Dashboard" target="_blank">GitHub Repository</a>
                   </div>
-                  <div class="card-footer">
-                    <small class="">Deployed Version</small>
-                  </div>
-                  <div class="card-footer">
-                    <small class="">GitHub Repository</small>
-                  </div>
-                </div>
+                 </div>
               </div>
 
         </div>
@@ -103,28 +94,24 @@
         </div>
     </div>
 
-    <div class="row col-12 m-0 p-0">
+    <div class="row col-12 m-0 p-0" id="contact-section">
         <div class="col-md-2">
         </div>
         <div class="col-md-10 content">
             <p class="title">CONTACT</p>
-            <p class="content-bold">I am a developer</p>
-            <br>
-            <h5 class="content-text text-justify">My name is John Franke. I'm currently attending the Kansas University coding bootcamp. I want to become a developer because it is something I've always been interested in. I self-taught myself html and css by playing around with it while I was in junior high, I got good enough to create websites for several people and small businesses. I now want to get into development as a career so now I am learning front end and back end to hopefully find a job in development.
-
-                In my free time I enjoy spending time with my family and friends. I like to travel. The last place I visited was Buffalo, NY. While I was there I checked off a bucketlist item I've always had by visiting Niagara Falls. Other places I enjoy traveling to and I frequent quite often because of friends and just for fun are Chicago and Nashville. In the near future I would like to visit New York City.
-            </h5>
-
+            <p class="content-contact">Email Address: JohnRFrankeJr@gmail.com</p>
+            <p class="content-contact">Phone Number: (816) 589-8509</p>
         </div>
 
     </div>
 
     <nav class="navbar navbar-light d-flex justify-content-center footer">
-        Copyright ©
+        <a href="https://github.com/johnfranke" target="_blank"><img class="logos" src="./logo-github.png"></a>&nbsp;<a href="https://www.linkedin.com/in/john-franke-a368b51a1/" target="_blank"><img class="logos" src="logo-linkedin.png"></a>
       </nav>
 
     
-
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="script.js"></script>
 
 </body>
 

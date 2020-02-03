@@ -10,6 +10,12 @@
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
 }
+
+.header:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.05);
+}
+
 .navbar {
     width: 100%;
     font-size: 4vw;
@@ -27,9 +33,16 @@
     width: 100%;
     color: white;
     margin: 40px 0px 0px 0px;
-    padding: 30px;
+    padding: 50px;
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 2px 2px 10px #888888;
+}
+
+.content:hover {
+    /* border: opx solid rgb(0, 140, 255);
+    box-shadow: 0 0 25px rgb(0, 140, 255); */
+    transition: all 1s ease;
+    transform: scale(1.02);
 }
 
 .title {
@@ -37,18 +50,30 @@
     color: rgb(223, 223, 223);
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .content-bold {
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: 'Roboto', sans-serif;
+}
+
+.content-bold:hover {
+    transition: all 1s ease;
+    transform: scale(1.02);
+}
+
+.content-contact {
+    font-size: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+.content-contact:hover {
+    transition: all 1s ease;
+    transform: scale(1.02);
 }
 
 .content-text {
     color: white;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .footer {
@@ -63,6 +88,8 @@
 
 a:hover {
     color: rgb(0, 140, 255);
+    transition: all .5s ease;
+    transform: scale(1.04);
 }
 
 .card {
@@ -71,25 +98,41 @@ a:hover {
     border: 0px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
+    scale: 80%;
+}
+.card:hover {
+    transition: all 1s ease;
+    transform: scale(1.04);
 }
 
 .card-img-top {
     border-radius: 0px;
-    /* transition-property: width;
-    transition-property: height;
-    transition-duration: 2s; */
 }
-/* .card-img-top:hover {
-    width: 105%;
-  } */
+
 .card-text {
     color: rgb(177, 177, 177);
 }
 
-.card-footer {
-    background-color: rgb(163, 163, 163);
-    color: #222222;
+.port-link {
+    background-color: rgb(0, 140, 255);
     font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.footer-link {
+    color: white;
+}
+#profile-pic {
+    float: bottom;
+    float: right;
+    margin: 25px;
+}
+#profile-pic:hover {
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+.logos:hover {
+    transition: all 1s ease;
+    transform: scale(1.2);
 }
 
 
